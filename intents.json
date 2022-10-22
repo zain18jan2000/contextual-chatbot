@@ -1,0 +1,190 @@
+{
+    "intents" : 
+    [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", 
+                         "hey", 
+                         "hi", 
+                         "good morning", 
+                         "good afternoon"
+                        ],
+            "responses": [
+                          "Hi there", 
+                          "Hello! Thank you for reaching out to us today.", 
+                          "Good to have you with us today"
+                         ]
+        },
+        {     "tag": "pricing",
+            "patterns": [
+                         "how much", 
+                         "cost", 
+                         "ballpark", 
+                         "price", 
+                         "pricing", 
+                         "prices"
+                        ],
+            "responses": ["Cost depends on few factors. In order for you to get the cost I will have to get some information from you, then I can connect you to the right person from our office.",
+                          "Price depends on few factors. In order for you to get the price I will have to get some information from you, then I can connect you to the right person from our office.",
+                          "Cost depends on few factors. The fastest way for you to get the cost is to let me get some information from you, then I will be able to connect you to the right person who can provide you with all the costs.",
+                          "Price depends on few factors. The fastest way for you to get the price is to let me get some information from you, then I will be able to connect you to the right person who can provide you with all the prices."
+                         ]
+        },
+        {   "tag": "service area",
+            "patterns": [
+                         "Do you service in", 
+                         "what are your service areas?", 
+                         "I live in"
+                        ],
+            "responses": [
+                          "We serve client throughtout the state of New Jersey and New York. Are you situated with New Jersey or New York?"
+                         ]
+        },
+        {   "tag": "office hours",
+            "patterns": [
+                         "Are you open?", 
+                         "what are your office hours?", 
+                         "How many days are you open?", 
+                         "Are you open on", 
+                         "Can I come at ", 
+                         "Will the shop be open on ",
+                         "time"
+                        ],
+            "responses": ["Our office hours are 9am to 5pm Monday - Friday. 9am to 3pm  Saturday. And we are closed on Sunday"]
+        },
+        {   "tag": "services",
+            "patterns": [
+                         "what are your services?", 
+                         "Can you help me with ", 
+                         "will you be able to help me?"
+                        ],
+            "responses": [
+                          "We can help you with HVAC, Plumbing and Heating problems."
+                         ]
+        },
+        {   "tag": "live person",
+            "patterns": [
+                         "Are you bot?", 
+                         "call the live person", 
+                         "bot", 
+                         "Is this live chat", 
+                         "Your a bot"
+                        ],
+            "responses": ["I am real person and this is live chat"]
+        },
+        {   "tag": "privacy",
+            "patterns": [
+                         "why are you asking", 
+                         "why do you need that", 
+                         "I will not provide my personal details", 
+                         "I am not comfortable sharing personal information"
+                        ],
+            "responses": ["I understand your concern. We respect your privacy and we do not maintain any sort of junk/spam list to email/text you. We only contact customers who asked to be contact."]
+        },
+        {   "tag": "office address",
+            "patterns": [
+                         "why are you located", 
+                         "what is your office address"
+                        ],
+            "responses": ["We are located in abc street, xyz, New York, 55411"]
+        },
+        {
+      "tag": "phone",
+      "patterns": [
+        "My phone number is",
+        "This is my phone number.",
+        "my cell phone number",
+        "yes, my phone number is",
+        "sure, my phone number is."
+      ],
+      "responses": [
+        "Thanks for sharing your phone number",
+        "Thankyou for sharing it"
+      ]
+     },
+      {
+      "tag": "email",
+      "patterns": [
+        "My email is",
+        "This is my email address.",
+        "my email number",
+        "yes, my email is",
+        "sure, my email is."
+      ],
+      "responses": [
+        "Thanks for sharing your email",
+        "Thankyou for sharing it"
+      ]
+     },
+     {
+      "tag": "negative",
+      "patterns": [
+        "No","Negative","I do not want to share my contact information",
+        "I do not want to share",
+        "I do not want to share that",
+        "Don't ask for that", "No please dont ask for it"
+      ],
+      "responses": [
+        "Ok, I understand",
+        "Ok, I understand your privacy."
+      ]  
+     },
+      {
+      "tag": "affirmative",
+      "patterns": [
+        "Yes",
+        "Why not",
+        "ok",
+        "well ok","Of course","Why not ?","Fine"
+          
+      ],
+      "responses": [
+        "That's great! ",
+        "Great. "
+      ]  
+     },
+     {
+      "tag": "name",
+      "patterns": [
+          "Hello, my name is",
+          "Hi my name is",
+          "Hi there, my name is",
+        "my name is",
+        "I am",
+        "remember my name is",
+        "you can call me"
+      ],
+      "responses": [
+        "Thanks, for telling that.",
+        "Great"
+      ]  
+     },
+      {
+      "tag": "interrogative",
+      "patterns": [
+        "Why are you asking for it ?",
+        "Why are you asking so many questions ?",
+        "Why I need to tell that?",
+        "Is it neccessary to share all of these information ?"
+      ],
+      "responses": [
+        "We try to understand our customers and their needs. That is why we ask these questions.",
+        "These information will help to identify our customers and their requirements. Do not worry, we won't share your info with anyone."
+      ]  
+     },
+    {
+      "tag": "Null",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Sorry, I can't help with that",
+        "Sorry, I did not understand."
+      ]  
+     }
+
+    ]
+}
+    
+    
+    
